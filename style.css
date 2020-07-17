@@ -9,6 +9,21 @@ body {
  }
 }
 
+body::-webkit-scrollbar {
+ width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+ background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #5e6f64;
+}
+
+
+/******Navbar*****/
+
 .navbar {
  background-color: #3f4441;
  color: #dfd3c3;
