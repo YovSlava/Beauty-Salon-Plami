@@ -30,11 +30,13 @@ body::-webkit-scrollbar-thumb {
 /******Navbar*****/
 
 .navbar {
+  height: 80px;
   background-color: #3f4441;
   color: #dfd3c3;
   text-emphasis: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -44,9 +46,21 @@ body::-webkit-scrollbar-thumb {
   justify-self: flex-start;
 }
 
-.nav-links {
+.navlinks {
   display: flex;
-  justify-content: baseline;
+  justify-content: space-around;
+}
+
+h3 {
+  padding: 10px;
+}
+
+/****** @media - Hide the Pricing and Contacts tabs when screen is less than 650px ******/
+
+@media only screen and (max-width: 650px) {
+  .navlinks {
+    display: none;
+  }
 }
 
 /**Anchor tags*/
