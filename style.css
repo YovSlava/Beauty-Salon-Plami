@@ -49,10 +49,7 @@ body::-webkit-scrollbar-thumb {
 .navlinks {
   display: flex;
   justify-content: space-around;
-}
-
-h3 {
-  padding: 10px;
+  width: 20%;
 }
 
 /****** @media - Hide the Pricing and Contacts tabs when screen is less than 650px ******/
@@ -62,6 +59,8 @@ h3 {
     display: none;
   }
 }
+
+
 
 /**Anchor tags*/
 
@@ -95,6 +94,21 @@ a:active {
   display: flex;
 }
 
+
+
+
 /***Price List**/
+
+.pricelist {
+height: 400px;
+background-color: #dfd3c3;
+color: #3f4441;
+}
+
+.pricelistheading {
+ font-size: 40px;
+ text-align: center;
+ padding-top: 20px;
+}
 
 /***Contacts**/
