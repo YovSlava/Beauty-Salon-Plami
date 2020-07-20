@@ -100,15 +100,56 @@ a:active {
 /***Price List**/
 
 .pricelist {
-height: 400px;
-background-color: #dfd3c3;
-color: #3f4441;
+  height: 400px;
+  background-color: #dfd3c3;
+  color: #3f4441;
 }
 
 .pricelistheading {
- font-size: 40px;
- text-align: center;
- padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 /***Contacts**/
+
+.contacts {
+  height: 300px;
+  background-color: #3f4441;
+  color: #dfd3c3;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contactsH3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.contactsHR {
+
+  width: 75px;
+  height: 50px;
+  border-style: dotted none none none;
+  color: #dfd3c7;
+  border-width: 10px;
+  margin: 10px auto 0;
+
+}
+
+
+.contactInfo {
+  font-size: 22px;
+  margin: auto;
+  width: 350px;
+
+
+
+}
+
+/***Footer***/
+
+.copyright {
+  background-color: #3f4441;
+  color: #dfd3c3;
+}
