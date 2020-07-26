@@ -95,7 +95,7 @@ a:active {
 /***Price List**/
 
 .pricelist {
-  height: 400px;
+  height: 750px;
   background-color: #dfd3c3;
   color: #3f4441;
 }
@@ -104,6 +104,36 @@ a:active {
   font-size: 40px;
   text-align: center;
   padding-top: 20px;
+}
+
+.hrPriceList {
+  border-style: dotted none none none;
+  width: 75px;
+  height: 50px;
+  color: #3f4441;
+  border-width: 10px;
+  margin: 10px auto 0;
+
+}
+
+.pricesContainer {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.nameOfTheService {
+  display: grid;
+  grid-template-columns: 100%;
+  padding-left: 450px;
+  text-align: left;
+}
+
+.priceOfTheService {
+  display: grid;
+  grid-template-columns: 30%;
+  text-align: right;
 }
 
 /***Contacts**/
@@ -142,6 +172,7 @@ a:active {
   color: #dfd3c3;
   font-size: 40px;
 }
+
 .fa {
   padding: 10px;
 }
